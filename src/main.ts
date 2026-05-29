@@ -8,14 +8,14 @@ import {
 } from 'obsidian';
 import {
     DEFAULT_SETTINGS,
-    MyPluginSettings,
+    BlogPublishSettings,
     SampleSettingTab,
 } from './settings';
 
 // Remember to rename these classes and interfaces!
 
 export default class HelloWorldPlugin extends Plugin {
-    settings!: MyPluginSettings;
+    settings!: BlogPublishSettings;
 
     async onload() {
         await this.loadSettings();
@@ -92,7 +92,7 @@ export default class HelloWorldPlugin extends Plugin {
         this.settings = Object.assign(
             {},
             DEFAULT_SETTINGS,
-            (await this.loadData()) as Partial<MyPluginSettings>,
+            (await this.loadData()) as Partial<BlogPublishSettings>,
         );
     }
 
