@@ -1,11 +1,10 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "blog-publish",
+	"name": "Blog Publish",
 	"version": "1.0.0",
 	"minAppVersion": "1.0.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "Publish obsidian notes to a remote URL to enable blog publishing from within Obsidian.",
+	"author": "David Jarman",
+	"authorUrl": "https://github.com/david-jarman/blog-publish",
 	"isDesktopOnly": false
 }
