@@ -23,5 +23,8 @@
 		"obsidian": "latest",
 		"typescript": "^5.8.3",
 		"typescript-eslint": "^8.59.1"
+	},
+	"dependencies": {
+		"@azure/storage-blob": "^12.31.0"
 	}
 }
